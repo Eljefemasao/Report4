@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  * Created by masaaki on 2017/01/02.
  */
 public class EnemyTest {
-    @org.junit.Test
+    @Test
     public void attack() throws Exception {
         int heroHP = 10;
         Hero hero = new Hero("テスト勇者", heroHP, 5);
@@ -19,5 +19,6 @@ public class EnemyTest {
         assertEquals(heroHP, hero.hitPoint);
     }
 
-    }
+
+}
 
